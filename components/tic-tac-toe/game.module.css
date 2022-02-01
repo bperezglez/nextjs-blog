@@ -1,0 +1,11 @@
+.game {
+  display: flex;
+  flex-direction: row;
+}
+.gameBOard {
+  background: #fff;
+}
+
+.gameInfo {
+  margin-left: 20px;
+}

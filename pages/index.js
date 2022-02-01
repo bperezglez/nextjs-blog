@@ -42,6 +42,13 @@ export default function Home({ allPostsData }) {
               </small>
             </li>
           ))}
+          <li className={utilStyles.listItem}>
+            <Link href={ `/games/`}>
+              <a>
+                Juegos
+              </a>
+            </Link>
+          </li>
         </ul>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
