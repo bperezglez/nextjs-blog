@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import styles from './square.module.css'
 
 export default function Square(props) {
