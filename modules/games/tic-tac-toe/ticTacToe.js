@@ -1,5 +1,5 @@
 import Board from './board'
-import styles from './game.module.css'
+import styles from './ticTacToe.module.css'
 import { useState } from 'react'
 
 const defaultState = {
@@ -30,7 +30,7 @@ function calculateWinner(squares) {
   return null;
 }
 
-export default function Game() {
+export default function TicTacToe() {
   const [state, setState] = useState(defaultState)
   const history = state.history
   const current = history[state.stepNumber]
