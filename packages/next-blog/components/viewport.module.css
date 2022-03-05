@@ -1,0 +1,26 @@
+.container {
+  --color-primary: #0070f3;
+  --color-neutral-white: #fff;
+}
+
+.frame {
+  border: 16px solid #000;
+  border-radius: 8px;
+  background: #fff;
+  padding: 16px;
+  margin: 0 auto;
+  transition: all ease-out .3s;
+}
+
+.desktop {
+  border-color: #dedede;
+}
+
+.mobile {
+  border-color: #000;
+
+}
+
+.tablet {
+  border-color: #d1d13e;
+}

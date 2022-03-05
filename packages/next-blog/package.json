@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node_modules/next/dist/bin/next build && node_modules/next/dist/bin/next start",
+    "cp:components": "scp -r ./components pi@192.168.1.57:~/projects/nextjs",
+    "cp:lib": "scp -r ./lib pi@192.168.1.57:~/projects/nextjs",
+    "cp:modules": "scp -r ./modules pi@192.168.1.57:~/projects/nextjs",
+    "cp:pages": "scp -r ./pages pi@192.168.1.57:~/projects/nextjs",
+    "cp:public": "scp -r ./public pi@192.168.1.57:~/projects/nextjs",
+    "cp:styles": "scp -r ./styles pi@192.168.1.57:~/projects/nextjs",
+    "cp:posts": "scp -r ./posts pi@192.168.1.57:~/projects/nextjs",
+    "cp:dockerfile": "scp -r ./Dockerfile pi@192.168.1.57:~/projects/nextjs",
+    "cp:nextconfig": "scp -r ./next.config.js pi@192.168.1.57:~/projects/nextjs",
+    "cp:babel": "scp -r ./.babelrc pi@192.168.1.57:~/projects/nextjs",
+    "cp:server": "scp -r ./server.js pi@192.168.1.57:~/projects/nextjs",
+    "cp:package": "scp -r ./package.json pi@192.168.1.57:~/projects/nextjs",
+    "cp:packagelock": "scp -r ./package-lock.json pi@192.168.1.57:~/projects/nextjs",
+    "deploy": "npm run cp:components && npm run cp:lib && npm run cp:modules && npm run cp:pages && npm run cp:public && npm run cp:styles && npm run cp:posts && npm run cp:dockerfile && npm run cp:nextconfig && npm run cp:babel && npm run cp:server && npm run cp:package && npm run cp:packagelock"
+  },
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "gray-matter": "^4.0.3",
+    "next": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
+    "fi-pay": "^1.0.0"
+  },
+  "name": "nextjs-blog",
+  "version": "0.0.0"
+}

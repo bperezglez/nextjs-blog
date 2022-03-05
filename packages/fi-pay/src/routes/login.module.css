@@ -1,0 +1,46 @@
+.fi-pay {
+  --color-neutral-white: #FFF;
+  --color-primary: #6D5FFD;
+  --font-primary: Source Sans Pro;
+  background-size: cover;
+  height: 100%;
+  padding: 0 24px 36px 24px;
+  display: flex;
+  align-items: flex-end;
+  color: #2C3A4B;
+  justify-content: center;
+}
+
+.largest-text {
+  font-size: 33px;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--font-primary);
+}
+
+.medium-text {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: normal;
+  font-family: var(--font-primary);
+}
+
+.neutral-white-text {
+  color: var(--color-neutral-white);
+}
+
+.primary-text {
+  color: var(--color-primary);
+}
+
+.button-primary {
+  margin-bottom: 16px;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
